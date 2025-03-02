@@ -45,6 +45,7 @@ function App() {
       <p className="text-white text-lg mb-4">
           A drag-and-drop task organizer with dynamic task creation.
         </p>
+        <div className="flex flex-col gap-2">
         <a
         href="https://github.com/Manyg11/to-do-app"
         target="_blank"
@@ -53,12 +54,22 @@ function App() {
         >
           View on Github
         </a>
+        <a 
+        href="https://taskmanager-emmanuel-gomez.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sky-500 hover:underline font-medium"
+        >
+          View on Netlify
+        </a>
+        </div>
       </div>
       <div className="bg-transparent border border-zinc-400  rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
       <h3 className="text-2xl font-bold mb-2">Little Lemon</h3>
       <p className="text-white text-lg mb-4">
          Little Lemon website, this was my final project of my course on Coursera by META.
         </p>
+        <div className="flex flex-col gap-2">
         <a
         href="https://github.com/Manyg11/Capstone-project"
         target="_blank"
@@ -67,6 +78,15 @@ function App() {
         >
           View on Github
         </a>
+        <a 
+        href="https://littlelemon-emmanuel-gomez.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sky-500 hover:underline font-medium"
+        >
+          View on Netlify
+        </a>
+        </div>
         </div>
         <div className="bg-transparent border border-zinc-400 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
       <h3 className="text-2xl font-bold mb-2">Weather forecast</h3>
