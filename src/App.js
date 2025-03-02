@@ -21,6 +21,7 @@ function App() {
         <p className="text-white text-lg mb-4">
           A responsive timer app for perfect boiled eggs, featuring custom designs and dynamic timers.
         </p>
+        <div className="flex flex-col gap-2">
         <a
         href="https://github.com/Manyg11/boiled-eggs-app"
         target="_blank"
@@ -29,6 +30,15 @@ function App() {
         >
           View on GitHub
         </a>
+        <a 
+        href="https://boiledeggstimer-emmanuel-gomez.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sky-500 hover:underline font-medium"
+        >
+          View on Netlify
+        </a>
+      </div>
       </div>
       <div className="bg-transparent border border-zinc-400 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
       <h3 className="text-2xl font-bold mb-2">Task Manager</h3>
@@ -63,6 +73,7 @@ function App() {
       <p className="text-white text-lg mb-4">
          A weather forecast app with city suggestions, 5-day forecast, and dynamic backgrounds.
         </p>
+        <div className="flex flex-col gap-2">
         <a
         href="https://github.com/Manyg11/Weather-app"
         target="_blank"
@@ -71,7 +82,16 @@ function App() {
         >
           View on Github
         </a>
+        <a 
+        href="https://weatherapp-emmanuel-gomez.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sky-500 hover:underline font-medium"
+        >
+          View on Netlify
+        </a>
         </div>
+      </div>
       </div>
 
       <div className="mt-10 text-left max-w-6xl mx-auto px-4">
