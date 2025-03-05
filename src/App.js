@@ -116,7 +116,7 @@ function App() {
 
       <div className="mt-10 text-left max-w-6xl mx-auto px-4">
         <a
-        href="/cv-emmanuel-gomez-pdf"
+        href="/cv-emmanuel-gomez.pdf"
         download="cv-emmanuel-gomez.pdf"
         className="inline-block bg-gray-700  text-white py-2 px-2 border border-2-zinc-400 rounded-lg hover:text-sky-500"
         >
